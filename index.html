@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern CV Tasarımı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .cv-container {
+            width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #d0d0d0;
+            margin-right: 20px;
+        }
+        .name-contact {
+            flex: 1;
+        }
+        .name-contact h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .name-contact p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 18px;
+            color: #333;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .section p {
+            color: #555;
+            margin: 5px 0;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background-color: #e0f7fa;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #00796b;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <div class="profile-pic"></div>
+            <div class="name-contact">
+                <h1>Ad Soyad</h1>
+                <p>Telefon: 123-456-7890</p>
+                <p>Email: email@example.com</p>
+                <p>Adres: Şehir, Ülke</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Profesyonel Özet</h2>
+            <p>Tecrübeli bir yazılım geliştirici olarak, modern web teknolojileri konusunda uzmanlaştım ve çeşitli projelerde ekip liderliği yaptım.</p>
+        </div>
+        <div class="section">
+            <h2>İş Deneyimi</h2>
+            <p><strong>Yazılım Geliştirici</strong> - Şirket Adı (2020-2023)</p>
+            <p>Projeleri geliştirmek, ekip yönetimi ve müşteri taleplerine çözüm sunmak.</p>
+        </div>
+        <div class="section">
+            <h2>Eğitim</h2>
+            <p><strong>Bilgisayar Mühendisliği</strong> - Üniversite Adı (2016-2020)</p>
+        </div>
+        <div class="section">
+            <h2>Yetenekler</h2>
+            <div class="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Sertifikalar</h2>
+            <p>Web Geliştirme Uzmanlığı - Online Eğitim Platformu</p>
+        </div>
+    </div>
+</body>
+</html>
